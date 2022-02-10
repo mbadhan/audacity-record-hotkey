@@ -4,8 +4,6 @@ import os
 import sys
 import time
 from pynput import keyboard
-import win32clipboard
-from io import BytesIO
 
 if sys.platform == 'win32':
     TONAME = '\\\\.\\pipe\\ToSrvPipe'
